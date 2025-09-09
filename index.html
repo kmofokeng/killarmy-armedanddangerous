@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Killarmy: Armed & Dangerous - Strategic Proposal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;700&family=Crete+Round:ital@0;1&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0d0d0d;
+            color: #e5e7eb;
+            /* Disable text selection */
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        .header-font {
+            font-family: 'Anton', sans-serif;
+            letter-spacing: 0.1em;
+        }
+        .stencil-font {
+            font-family: 'Crete Round', serif;
+        }
+        .card {
+            background-color: #1a1a1a;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25);
+            padding: 2.5rem;
+            border: 1px solid #333;
+            position: relative;
+            overflow: hidden;
+        }
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 0, 0, 0.05);
+            pointer-events: none;
+        }
+        .list-item-bullet {
+            color: #f87171;
+            font-weight: bold;
+        }
+        audio::-webkit-media-controls-panel {
+            background-color: #2b2b2b;
+        }
+        audio::-webkit-media-controls-play-button {
+            background-color: #f87171;
+            border-radius: 50%;
+        }
+
+        /* Hide content when printing */
+        @media print {
+            body > * {
+                display: none !important;
+            }
+        }
+    </style>
+</head>
+<!-- Disable right-click context menu on the body -->
+<body class="p-4 sm:p-8 md:p-12" oncontextmenu="return false;">
+
+    <!-- Header Section -->
+    <header class="text-center mb-12">
+        <h1 class="text-5xl md:text-7xl font-bold header-font text-red-500 mb-2">ARMED & DANGEROUS</h1>
+        <p class="text-xl md:text-2xl text-gray-400">A Strategic Album Proposal</p>
+    </header>
+
+    <main class="grid gap-8">
+
+        <!-- Concept Summary Card -->
+        <div class="card">
+            <h2 class="text-3xl font-bold mb-4 header-font text-red-400">Concept & Narrative</h2>
+            <p class="text-gray-300 mb-4">A continuation of the Killarmy militant brand and narrative, picking up from where the previous albums left off. The core theme explores the contradiction between the perception of black armed men in America, who are often viewed as dangerous, versus the constitutional right to bear arms, which is celebrated for the majority but not so much for the minority.</p>
+            <p class="text-gray-300">The album takes a historical look at the role of black people in fighting and helping America win wars, contrasting this with the present where black men as protectors of their women and children are seemingly not afforded the same liberties. The album, and the phrase "stay dangerous," serves as a reminder for black men to remain vigilant as danger is always looming.</p>
+        </div>
+
+        <!-- Music Player Card -->
+        <div class="card">
+            <h2 class="text-3xl font-bold mb-6 header-font text-red-400">Track Previews</h2>
+            <p class="text-gray-400 mb-4">You can listen to the selected tracks below.</p>
+            <div class="space-y-6">
+                <!-- Music player for Right to Bear Arms -->
+                <div class="bg-gray-800 p-4 rounded-lg flex items-center justify-between flex-wrap gap-4">
+                    <p class="text-lg text-red-300 font-bold">Right to Bear Arms (Say It)</p>
+                    <audio controls class="w-full md:w-1/2">
+                        <source src="https://www.dropbox.com/scl/fi/ycczqcx31pfirekvo66zl/3.-Right-to-Bear-Arms-Say-It.mp3?rlkey=9expswa98qysuub90aebb2nwn&st=t79xtf2s&raw=1" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <!-- Music player for Hidden Battlefields -->
+                <div class="bg-gray-800 p-4 rounded-lg flex items-center justify-between flex-wrap gap-4">
+                    <p class="text-lg text-red-300 font-bold">Hidden Battlefields (Feat. GZA)</p>
+                    <audio controls class="w-full md:w-1/2">
+                        <source src="https://www.dropbox.com/scl/fi/i4wjavvxsv8ii8wti0p4h/8.-Hidden-Battlefields.mp3?rlkey=jov1paiv2dyrjnef95j2vb2b2&st=i0gvutm9&raw=1" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <!-- Music player for Project Eve -->
+                <div class="bg-gray-800 p-4 rounded-lg flex items-center justify-between flex-wrap gap-4">
+                    <p class="text-lg text-red-300 font-bold">Project Eve</p>
+                    <audio controls class="w-full md:w-1/2">
+                        <source src="https://www.dropbox.com/scl/fi/96yof55pree2xhtv0xlvs/6.-Project-Eve.mp3?rlkey=i58any4gj8o6xl1ko1263hfoa&st=b5wolh3q&raw=1" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <!-- Music player for Stay Dangerous -->
+                <div class="bg-gray-800 p-4 rounded-lg flex items-center justify-between flex-wrap gap-4">
+                    <p class="text-lg text-red-300 font-bold">Stay Dangerous (Feat. Griselda)</p>
+                    <audio controls class="w-full md:w-1/2">
+                        <source src="https://www.dropbox.com/scl/fi/xpw75zsy60ij5y7edtk13/17.-Stay-Dangerous-Outro.mp3?rlkey=0w5vq6pbqvy41zgxm7x3v3vkz&st=5dg3fvzy&raw=1" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <!-- Music player for Bulletproof Love Letters -->
+                <div class="bg-gray-800 p-4 rounded-lg flex items-center justify-between flex-wrap gap-4">
+                    <p class="text-lg text-red-300 font-bold">Bulletproof Love Letters</p>
+                    <audio controls class="w-full md:w-1/2">
+                        <source src="https://www.dropbox.com/scl/fi/oy1hqof1r29g75r0jzzjg/13.-Bulletproof-Love-Letters.mp3?rlkey=wo6dm4n0gbinxqu3m6soaluzq&st=qfan8bmt&raw=1" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <!-- Music player for Armed with Knowledge -->
+                <div class="bg-gray-800 p-4 rounded-lg flex items-center justify-between flex-wrap gap-4">
+                    <p class="text-lg text-red-300 font-bold">Armed with Knowledge</p>
+                    <audio controls class="w-full md:w-1/2">
+                        <source src="https://www.dropbox.com/scl/fi/0k4t4ew3wwbdq89tibxmn/7.-Armed-with-Knowledge.mp3?rlkey=2nx3nnhjc6vdid5rvzzxw98uk&st=g0nffgml&raw=1" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <!-- Music player for Project Generals -->
+                <div class="bg-gray-800 p-4 rounded-lg flex items-center justify-between flex-wrap gap-4">
+                    <p class="text-lg text-red-300 font-bold">Project Generals</p>
+                    <audio controls class="w-full md:w-1/2">
+                        <source src="https://www.dropbox.com/scl/fi/qaj5hqp60ojq5gldtc6by/10.-Project-Generals.mp3?rlkey=jl4utp3aja605qalzhtc16t7l&st=5p6uopzs&raw=1" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tracklist Card -->
+        <div class="card">
+            <h2 class="text-3xl font-bold mb-6 header-font text-red-400">Tracklist: The Arsenal</h2>
+            <ol class="list-decimal list-inside text-gray-300 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-2 gap-x-8 text-lg">
+                <li>Legacy of War (Intro)</li>
+                <li>Armed & Dangerous</li>
+                <li>Right to Bear Arms (Say It)</li>
+                <li>Never Off Safety</li>
+                <li>Soldier’s Code</li>
+                <li>Project Eve</li>
+                <li>Armed with Knowledge</li>
+                <li>Hidden Battlefields (Feat. GZA)</li>
+                <li>Children of the Revolution</li>
+                <li>Project Generals</li>
+                <li>Black Man Radar</li>
+                <li>Deadly Liberty</li>
+                <li>Bulletproof Love Letters</li>
+                <li>Born Target Practice</li>
+                <li>Hidden in Plain Sight</li>
+                <li>War in Every Era</li>
+                <li>Stay Dangerous (Outro) (Feat. Griselda)</li>
+            </ol>
+        </div>
+
+        <!-- Marketing Rollout Strategy -->
+        <div class="card">
+            <h2 class="text-3xl font-bold mb-4 header-font text-red-400">The Campaign: Strategic Deployments</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-gray-300">
+                <div>
+                    <h3 class="text-xl font-bold mb-2 flex items-center gap-2"><span class="list-item-bullet">🎙️</span> Press & Interviews</h3>
+                    <ul class="list-disc list-inside space-y-2 ml-4">
+                        <li>NPR Tiny Desk (Theatrical staging)</li>
+                        <li>Popcast (New York Times)</li>
+                        <li>Track Star & Mass Appeal Open Space</li>
+                        <li>Hip Hop Wired I GOT QUESTIONS</li>
+                        <li>UPROXX Sound Check</li>
+                        <li>Hot Ones & Way Up with Angela Yee</li>
+                        <li>Apple Music (NMD, Ebro Show)</li>
+                        <li>GQ (10 Essentials & The Friendship Quiz)</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-2 flex items-center gap-2"><span class="list-item-bullet">🎬</span> Creative Assets</h3>
+                    <ul class="list-disc list-inside space-y-2 ml-4">
+                        <li>Documentary Short: "Stay Dangerous: The Legacy"</li>
+                        <li>Animated social media reels visualizing lyrics</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-2 flex items-center gap-2"><span class="list-item-bullet">👕</span> Merch & Books</h3>
+                    <ul class="list-disc list-inside space-y-2 ml-4">
+                        <li>Military-style fatigues & camouflage hoodies</li>
+                        <li>Posters styled as "classified documents"</li>
+                        <li>Zine: "Black Soldiers, Forgotten Wars" with a historian</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-2 flex items-center gap-2"><span class="list-item-bullet">🤝</span> Partnerships & Events</h3>
+                    <ul class="list-disc list-inside space-y-2 ml-4">
+                        <li>Gyms, boxing, and MMA centers</li>
+                        <li>Social justice organizations</li>
+                        <li>Listening event at a military museum</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="text-center mt-12 text-gray-500 text-sm">
+        <p>All rights reserved.</p>
+        <p>&copy; <span id="currentYear"></span> Perfektionist / Kamohelo Mofokeng.</p>
+    </footer>
+
+    <script>
+        // Check for F12, Ctrl+Shift+I, and other dev tools shortcuts
+        document.onkeydown = function(e) {
+            // Disable F12 key
+            if(e.key === "F12") {
+                return false;
+            }
+            // Disable Ctrl+Shift+I key combo
+            if(e.ctrlKey && e.shiftKey && e.key === "I") {
+                return false;
+            }
+            // Disable Ctrl+Shift+J key combo
+            if(e.ctrlKey && e.shiftKey && e.key === "J") {
+                return false;
+            }
+        }
+        
+        // Set the current year for the copyright
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
